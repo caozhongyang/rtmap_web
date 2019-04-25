@@ -2,12 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9a5fb58-9149-4dec-a901-59fe8de79be0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facial-demo/facial-demo/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facial-demo/facial-demo/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facial-demo/facial-demo/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facial-demo/facial-demo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/camera/camera-api.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/camera/camera-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/common/common-api.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/common/common-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/home/home-api.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/home/home-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/login/login-api.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/login/login-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/member/member-api.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/member/member-api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/center-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/head-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/head-icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/home-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/icon9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/index-tit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/login-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/nav-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/peo-bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/peo-bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/peo-bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/top-bar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/bar-chart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/circle-chart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/line-chart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/nightingale-chart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/ring-chart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/scroll-picture.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/scroll.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containter/full.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/api/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/constant/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/lib/m2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/util/ajax.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/back/back.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/camera/camera-management.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/customer/MarketingAnalysis.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/customer/MemberManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/customer/MemberRecord.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/customer/NonMember.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/manage/AreaManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/manage/CameraManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/manage/RoleManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/manage/UserManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/member/member-management.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,17 +135,6 @@
             <path>
               <item name="rtmap_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="rtmap_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rtmap_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rtmap_web" type="462c0819:PsiDirectoryNode" />
-              <item name="facial-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rtmap_web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rtmap_web" type="462c0819:PsiDirectoryNode" />
-              <item name="facial-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="facial-demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -96,26 +177,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556191043030</updated>
-      <workItem from="1556191044230" duration="390000" />
+      <workItem from="1556191044230" duration="697000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1556191573827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556191573827</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390000" />
+    <option name="totallyTimeSpent" value="697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -127,6 +216,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/facial-demo/facial-demo/.babelrc">
